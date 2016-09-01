@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B2FD9001D78D5C100CEFC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2FD8FF1D78D5C100CEFC46 /* Main.storyboard */; };
 		82111F1F1D78664D00AF97C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82111F1E1D78664D00AF97C2 /* AppDelegate.swift */; };
 		82111F211D78664D00AF97C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82111F201D78664D00AF97C2 /* ViewController.swift */; };
 		82111F271D78664D00AF97C2 /* MappyCraps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82111F251D78664D00AF97C2 /* MappyCraps.xcdatamodeld */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B2FD8FF1D78D5C100CEFC46 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		82111F1B1D78664D00AF97C2 /* MappyCraps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MappyCraps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82111F1E1D78664D00AF97C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82111F201D78664D00AF97C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				82111F2D1D78664D00AF97C2 /* Info.plist */,
 				82111F251D78664D00AF97C2 /* MappyCraps.xcdatamodeld */,
 				82111F351D78697300AF97C2 /* ViewController.xib */,
+				7B2FD8FF1D78D5C100CEFC46 /* Main.storyboard */,
 			);
 			path = MappyCraps;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82111F2C1D78664D00AF97C2 /* LaunchScreen.storyboard in Resources */,
+				7B2FD9001D78D5C100CEFC46 /* Main.storyboard in Resources */,
 				82111F361D78697300AF97C2 /* ViewController.xib in Resources */,
 				82111F291D78664D00AF97C2 /* Assets.xcassets in Resources */,
 				82111F3E1D787ADA00AF97C2 /* GoogleMaps.bundle in Resources */,
@@ -322,7 +326,7 @@
 					"$(PROJECT_DIR)/MappyCraps",
 				);
 				INFOPLIST_FILE = MappyCraps/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.uk.cerceta.MappyCraps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,7 +343,7 @@
 					"$(PROJECT_DIR)/MappyCraps",
 				);
 				INFOPLIST_FILE = MappyCraps/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.uk.cerceta.MappyCraps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
